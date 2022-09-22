@@ -5,15 +5,16 @@ const NewsItem = (props) => {
   let { title, description, imageUrl, newsUrl } = props;
   return (
     <div className="my-3">
-      <div  className="card">
+      <div className="card">
         <div
           style={{
             display: "flex",
             justifyContent: "flex-end",
             position: "absolute",
-                      right: "0",
-                      height: "500px",
-            borderradius: "25px"
+            right: "0",
+            height: "500px",
+            borderradius: "25px",
+            gap: "5px",
           }}
         >
           {/* <span className="badge rounded-pill bg-danger"> {source} </span> */}
@@ -24,9 +25,13 @@ const NewsItem = (props) => {
           className="card-img-top "
           alt="..."
         />
-        <div className="card-body">
-          <h5 className="card-title">{title.slice(0, 100)}... </h5>
-          <p className="card-text">{description.slice(0, 150)}...</p>
+        <div className="card-body" >
+          <h5 className="card-title" style={{ height: "40px" }}>
+            {title.slice(0, 63)}...{" "}
+          </h5>
+          <p className="card-text" style={{ height: "70px" }}>
+            {description.slice(0, 125)}...
+          </p>
 
           <a
             rel="noreferrer"

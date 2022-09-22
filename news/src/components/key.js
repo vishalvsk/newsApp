@@ -1,4 +1,4 @@
-export const apiKey = `pub_11543c9e2b9f1a1cf02abd9cae940a109af60`;
+export const apiKey = `pub_11568600aca8496e4ca75255bd0fba43ca272`;
 export const title = `LG Rollable shows off how close it was to launch, plus rear display in detailed hands-on [Video]`;
 export const img = `https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNtyEpcgbyT48tITkMuYl_sB2KUi4uzDLiXQ&usqp=CAU`;
 export const description = `Minister of State for Electronics and Information Technology (IT) Rajeev Chandrasekhar said on September 21 that the Government of India is planning to make provisions for creating joint IPs between foreign companies and Indian start-ups.
