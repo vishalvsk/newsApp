@@ -3,9 +3,9 @@ import Spinner from "./Spinner";
 
 import NewsItem from "./NewsItem";
 import { useParams } from "react-router-dom";
-import { title, description } from "./key.js";
+import { title, description, apiKey} from "./key.js";
 
-import { apiKey } from "./key.js";
+
 
 const News = () => {
   const [data, setData] = React.useState([]);
