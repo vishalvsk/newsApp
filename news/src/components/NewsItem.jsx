@@ -19,12 +19,12 @@ const NewsItem = (props) => {
         >
           {/* <span className="badge rounded-pill bg-danger"> {source} </span> */}
         </div>
-        <img
+        {/* <img
           style={{ height: "300px" }}
           src={imageUrl ? imageUrl : img}
           className="card-img-top "
           alt="..."
-        />
+        /> */}
         <div className="card-body" >
           <h5 className="card-title" style={{ height: "40px" }}>
             {title.slice(0, 63)}...{" "}
