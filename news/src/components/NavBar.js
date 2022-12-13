@@ -22,11 +22,11 @@ const NavBar = () => {
                 
                 <li className="nav-item"><Link className="nav-link active" aria-current="page" to="/health">Health</Link></li>
                 <li className="nav-item"><Link className="nav-link active" aria-current="page" to="/politics">Politics</Link></li>
-                <li className="nav-item"><Link className="nav-link active" aria-current="page" to="/science">Science</Link></li>
+                {/* <li className="nav-item"><Link className="nav-link active" aria-current="page" to="/science">Science</Link></li>
                 <li className="nav-item"><Link className="nav-link active" aria-current="page" to="/sports">Sports</Link></li>
                 <li className="nav-item"><Link className="nav-link active" aria-current="page" to="/technology">Technology</Link></li>
                 <li className="nav-item"><Link className="nav-link active" aria-current="page" to="/top">Top</Link></li>
-                <li className="nav-item"><Link className="nav-link active" aria-current="page" to="/world">World</Link></li>
+                <li className="nav-item"><Link className="nav-link active" aria-current="page" to="/world">World</Link></li> */}
                         </ul>
                     </div>
                 </div>
