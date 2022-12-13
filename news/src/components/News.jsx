@@ -56,7 +56,7 @@ const News = () => {
 
   return (
     <>
-      {/* <h1
+      <h1
         className="text-center"
         style={{
           margin: "35px 0px",
@@ -66,7 +66,7 @@ const News = () => {
         }}
       >
         Vishal's News - Top Headlines
-      </h1> */}
+      </h1>
      
       {loading === true ? <Spinner /> :
         <>
