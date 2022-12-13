@@ -87,7 +87,7 @@ const News = () => {
                 );
               })}
             </div>
-          {/* </div>
+          </div>
           <div className="d-flex justify-content-around mb-4">
             <button onClick={prevPage} type="button" class="btn btn-dark">
               Previous
@@ -99,7 +99,7 @@ const News = () => {
         </>
       }
         </>
-         */}
+        
   
   );
 };
