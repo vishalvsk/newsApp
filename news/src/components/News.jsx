@@ -89,12 +89,12 @@ const News = () => {
             </div>
           </div>
           <div className="d-flex justify-content-around mb-4">
-            {/* <button onClick={prevPage} type="button" class="btn btn-dark">
+            <button onClick={prevPage} type="button" class="btn btn-dark">
               Previous
             </button>
             <button onClick={nextPage} type="button" class="btn btn-dark">
               Next
-            </button> */}
+            </button>
           </div>
         </>
       }
