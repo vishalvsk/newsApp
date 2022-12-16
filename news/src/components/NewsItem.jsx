@@ -7,15 +7,15 @@ const NewsItem = (props) => {
     <div className="my-3">
       <div className="card">
         <div
-          style={{
-            display: "flex",
-            justifyContent: "flex-end",
-            position: "absolute",
-            right: "0",
-            height: "500px",
-            borderradius: "25px",
-            gap: "5px",
-          }}
+          // style={{
+          //   display: "flex",
+          //   justifyContent: "flex-end",
+          //   position: "absolute",
+          //   right: "0",
+          //   height: "500px",
+          //   borderradius: "25px",
+          //   gap: "5px",
+          // }}
         >
           {/* <span className="badge rounded-pill bg-danger"> {source} </span> */}
         </div>
