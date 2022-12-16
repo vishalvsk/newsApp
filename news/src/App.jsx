@@ -12,19 +12,19 @@ const App = ()=> {
   
  
     return (
-      // <div>
+      <div>
        
-      //   <NavBar/> 
+        <NavBar/> 
   
-      //   <Routes>
+        <Routes>
          
-      //     <Route  path="/" element={<News />}></Route> 
-      //     <Route  path="/:news" element={<News />}></Route> 
+          <Route  path="/" element={<News />}></Route> 
+          <Route  path="/:news" element={<News />}></Route> 
         
        
-      //   </Routes>
+        </Routes>
       
-      // </div>
+      </div>
     )
  
 }
