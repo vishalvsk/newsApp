@@ -26,12 +26,12 @@ const NewsItem = (props) => {
           alt="..."
         />
         <div className="card-body">
-          {/* <h5 className="card-title" style={{ height: "40px" }}>
+          <h5 className="card-title" style={{ height: "40px" }}>
             {title.slice(0, 63)}...{" "}
           </h5>
           <p className="card-text" style={{ height: "70px" }}>
             {description.slice(0, 125)}...
-          </p> */}
+          </p>
 
           <a
             rel="noreferrer"
