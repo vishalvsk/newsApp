@@ -23,29 +23,29 @@ const News = () => {
     }
   }, [news, page]);
 
-  // const homeFunc = () => {
-  //   let url = `https://newsdata.io/api/1/news?&language=hi&apikey=${apiKey}&country=in&page=${page}`;
-  //   setLoading(true);
-  //   fetch(url)
-  //     .then((res) => res.json())
-  //     .then((res) => setData(res.results))
-  //     .catch((error) => console.log(error))
-  //      .finally(() => setLoading(false))
+  const homeFunc = () => {
+    let url = `https://newsdata.io/api/1/news?&language=hi&apikey=${apiKey}&country=in&page=${page}`;
+    setLoading(true);
+    fetch(url)
+      .then((res) => res.json())
+      .then((res) => setData(res.results))
+      .catch((error) => console.log(error))
+       .finally(() => setLoading(false))
       
-  //   console.log(data);
-  // };
+    console.log(data);
+  };
 
-  // const allFunc = () => {
-  //   let url = `https://newsdata.io/api/1/news?apikey=${apiKey}&country=in,us,gb,au,pk&category=${news}&page=${page}`;
-  //   setLoading(true);
-  //   fetch(url)
-  //     .then((res) => res.json())
-  //     .then((res) => setData(res.results))
-  //     .catch((error) => console.log(error))
-  //   .finally(() => setLoading(false))
+  const allFunc = () => {
+    let url = `https://newsdata.io/api/1/news?apikey=${apiKey}&country=in,us,gb,au,pk&category=${news}&page=${page}`;
+    setLoading(true);
+    fetch(url)
+      .then((res) => res.json())
+      .then((res) => setData(res.results))
+      .catch((error) => console.log(error))
+    .finally(() => setLoading(false))
    
-  //   console.log(data);
-  // };
+    console.log(data);
+  };
 
   const nextPage = () => {
     setPage((page) => page + 1);
