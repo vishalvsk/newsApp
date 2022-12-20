@@ -33,14 +33,14 @@ const NewsItem = (props) => {
             {description.slice(0, 125)}...
           </p>
 
-          <a
+          {/* <a
             rel="noreferrer"
             href={newsUrl}
             target="_blank"
             className="btn btn-sm btn-dark text-center"
           >
             Read More
-          </a>
+          </a> */}
         </div>
       </div>
     </div>
